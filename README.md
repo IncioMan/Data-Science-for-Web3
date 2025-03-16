@@ -55,5 +55,5 @@ With the following software and hardware list you can run all code files present
 ```
 docker build -t data-science-for-web3 .
 
-docker run -d -p 8888:8888 --name data-science-for-web3 data-science-for-web3
+docker run -p 8888:8888 -v $(pwd)/:/app/ --name dsfw3 data-science-for-web3
 ```

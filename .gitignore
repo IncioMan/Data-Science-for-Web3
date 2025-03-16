@@ -38,3 +38,5 @@ docker-compose.yml
 
 # Windows specific
 Thumbs.db
+
+.env
