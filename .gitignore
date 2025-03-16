@@ -1,0 +1,40 @@
+# Python-related
+*.pyc
+*.pyo
+__pycache__/
+*.pyd
+*.pdb
+*.log
+*.bak
+*.swp
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+env/
+venv/
+ENV/
+.venv/
+pipenv.lock
+Pipfile.lock
+
+# IDE/editor files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Jupyter specific files
+*.ipynb_checkpoints
+
+# Docker related
+*.dockerignore
+Dockerfile
+docker-compose.yml
+
+# Mac OS specific
+.DS_Store
+
+# Windows specific
+Thumbs.db

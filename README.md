@@ -50,3 +50,10 @@ With the following software and hardware list you can run all code files present
   
 ## Get to Know the Author
 **Gabriela Castillo Areco** holds an M. Sc. in Big Data Science from TECNUM School of Engineering, University of Navarra. Gabriela has undertaken roles as data scientist, machine learning analyst, and blockchain consultant in both large corporations and small ventures. She served as professor of "New Crypto Businesses" at Di Tella University and is currently a member of the BizOps data team at IOV Labs.
+
+## How to run with docker
+```
+docker build -t data-science-for-web3 .
+
+docker run -d -p 8888:8888 --name data-science-for-web3 data-science-for-web3
+```
